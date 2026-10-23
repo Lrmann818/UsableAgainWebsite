@@ -13,9 +13,11 @@ Static public website for the iOS/iPadOS app **Usable Again**. Plain HTML + one 
 
 The site root (`/`) redirects to `/usable-again/`.
 
-## Before publishing
+Other site files: `404.html` (GitHub Pages not-found page), `robots.txt`, `sitemap.xml`, `.well-known/security.txt` (renew its `Expires` date yearly), and self-hosted fonts in `assets/fonts/` with their OFL licenses.
 
-- Replace `[Effective Date]` in `usable-again/privacy/index.html` and `usable-again/terms/index.html` with the real effective date.
+## When editing policies
+
+- Update the Effective Date in `usable-again/privacy/index.html` or `usable-again/terms/index.html` whenever that page's terms change.
 
 ## Deploy (GitHub Pages + Cloudflare DNS)
 
